@@ -1,0 +1,223 @@
+/* by Tyler Woolvett, student number 0750688 */
+
+/*Reset*/
+body,
+header,
+nav,
+main,
+footer,
+img,
+ul {
+	font-family: Mongolian Baiti, Palatino Linotype, Georgia;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.tablet-desktop {
+	display: none;
+}
+
+.mobile {
+	display: block;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+header {
+	background-color: red;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #000000;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+
+header img {
+	margin: 0 auto;
+}
+
+nav img {
+	margin: 0 auto;
+}
+
+nav {
+	background-color: red;
+	font-weight: bold;
+	padding: 2em 2em;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	border-top: solid 4px brown;
+	padding: 5px;
+	text-decoration: none;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+	color: white;
+	font-size: 2.1em;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+
+main {
+	display: block;
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px #000000;
+	padding: 2%;
+	overflow: auto;
+}
+
+main h1 {
+	font-size: 2.25em;
+	color: brown;
+}
+
+main h3 {
+	font-size: 1.5em;
+	margin: 0em;
+}
+
+main h4 {
+	font-size: 1.25em;
+}
+
+main p {
+	font-size: 1.2em;
+}
+
+main ul {
+	list-style-type: none;
+}
+
+#info ul {
+	list-style-type: none;
+}
+
+#srebro_mini,
+#srebro_essentials,
+#srebro_millenia {
+	float: left;
+	width: 22.5%;
+}
+
+#about,
+#family {
+	float: left;
+	width: 40%;
+	margin: 0% 2.5%;
+}
+
+#family ol li {
+	font-size: 1.3em;
+	list-style-type: lower-roman;
+}
+
+.round {
+	border-radius: 15px;
+}
+
+.brown_bold {
+	color: brown;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+footer {
+	font-size: 0.9em;
+	text-align: center;
+}
+
+/*Tablet*/
+@media screen and (min-width: 630px) {
+
+	.mobile {
+		display: none;
+	}
+
+	.tablet-desktop {
+		display: block;
+	}
+
+	nav li {
+		display: inline-block;
+		border: solid 4px brown;
+		border-radius: 20px;
+		padding: 5px;
+		text-decoration: none;
+	}
+
+	nav img {
+		margin: 0;
+		padding: 2%;
+	}
+
+	nav li:first-child {
+		border-top: solid 4px brown;
+	}
+
+	nav li:active {
+		border-color: black;
+		background-color: brown;
+		box-shadow: none;
+	}
+
+	#contact {
+		display: block;
+		float: left;
+		margin: 0 2.5%;
+	}
+
+}
+
+/*Desktop*/
+@media screen and (min-width: 1015px) {
+
+	nav img {
+		margin-bottom: 0%;
+		padding: 0%;
+	}
+
+	nav ul {
+		text-align: left;
+		padding: 2%;
+	}
+
+	nav li:hover {
+		border-color: white;
+		box-shadow: 4px 4px 4px #000000;
+	}
+
+	nav li:active {
+		border-color: black;
+		background-color: brown;
+		box-shadow: none;
+	}
+
+	#contact {
+		float: none;
+	}
+
+}

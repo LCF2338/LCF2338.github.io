@@ -1,0 +1,121 @@
+/* by Tyler Woolvett, student number 0750688 */
+
+/* CSS Reset */
+body, header, nav, main, footer {
+	font-family: Mongolian Baiti, Palatino Linotype, Georgia;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: red;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #000000;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	text-align: center;
+}
+
+nav {
+	background-color: red;
+	font-weight: bold;
+	padding: 2em 2em;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+	border: solid 4px brown;
+	border-radius: 20px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+nav li a {
+	color: white;
+	font-size: 2.1em;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+
+main {
+	display: block;
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px #000000;
+	padding: 2%;
+	overflow: auto;
+}
+
+main h1 {
+	font-size: 2.25em;
+	color: brown;
+}
+
+main h3 {
+	font-size: 1.5em;
+	margin: 0em;
+}
+
+main h4 {
+	font-size: 1.25em;
+}
+
+main p {
+	font-size: 1.2em;
+}
+
+main ul {
+	list-style-type: none;
+}
+
+#info ul {
+	list-style-type: none;
+}
+
+#srebro_mini, #srebro_essentials, #srebro_millenia {
+	float: left;
+	width: 22.5%;
+}
+
+#about, #family {
+	float: left;
+	width: 40%;
+	margin: 0% 2.5%;
+}
+
+#about img {
+	width: 690px;
+}
+
+#family ol li {
+	font-size: 1.3em;
+	list-style-type: lower-roman;
+}
+
+.round {
+	border-radius: 15px;
+}
+
+.brown_bold {
+	color: brown;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+footer {
+	font-size: 0.9em;
+	text-align: center;
+}
