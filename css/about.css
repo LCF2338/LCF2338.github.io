@@ -1,13 +1,7 @@
 /* by Tyler Woolvett, student number 0750688 */
 
 /*Reset*/
-body,
-header,
-nav,
-main,
-footer,
-img,
-ul {
+body, header, nav, main, footer, img, ul {
 	font-family: Mongolian Baiti, Palatino Linotype, Georgia;
 	margin: 0;
 	padding: 0;
@@ -113,15 +107,12 @@ main ul {
 	list-style-type: none;
 }
 
-#srebro_mini,
-#srebro_essentials,
-#srebro_millenia {
+#srebro_mini, #srebro_essentials, #srebro_millenia {
 	float: left;
 	width: 22.5%;
 }
 
-#about,
-#family {
+#about, #family {
 	float: left;
 	width: 40%;
 	margin: 0% 2.5%;
