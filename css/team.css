@@ -1,7 +1,7 @@
 /* by Tyler Woolvett, student number 0750688 */
 
 /* CSS Reset */
-body, header, nav, main, footer {
+body, header, nav, main, footer, figcaption, section, article, aside {
 	font-family: Mongolian Baiti, Palatino Linotype, Georgia;
 	margin: 0;
 	padding: 0;
@@ -87,6 +87,47 @@ main p {
 
 main ul {
 	list-style-type: none;
+}
+
+aside {
+	border-top: 2.5px solid black;
+	box-shadow: 25px 25px #ccc;
+	padding: 2%;
+}
+
+figure {
+	border: 5px solid white;
+	box-shadow: 25px 25px 25px rgb(87, 87, 87);
+	background-color: #ccc;
+	margin: auto;
+}
+
+figcaption {
+	color: white;
+	box-shadow: 5px -5px 15px #818181;
+	background-color: brown;
+	text-align: center;
+	font-family: Palatino Linotype;
+	font-size: 1.5em;
+	margin-top: 6%;
+	padding: 3%;
+	width: 85%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 100px;
+}
+
+#story, .grid {
+	width: 40%;
+	float: left;
+}
+
+#story {
+	padding: 1%;
+	margin: 2%;
 }
 
 #info ul {
