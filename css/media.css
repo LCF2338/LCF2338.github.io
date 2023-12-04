@@ -1,7 +1,7 @@
 /* by Tyler Woolvett, student number 0750688 */
 
 /* CSS Reset */
-body, header, nav, main, footer, figcaption, section, article, aside {
+body, header, nav, main, footer {
 	font-family: Mongolian Baiti, Palatino Linotype, Georgia;
 	margin: 0;
 	padding: 0;
@@ -23,7 +23,7 @@ header {
 	text-align: center;
 }
 
-nav { 
+nav {
 	background-color: red;
 	font-weight: bold;
 	padding: 2em 2em;
@@ -89,45 +89,48 @@ main ul {
 	list-style-type: none;
 }
 
-aside {
-	border-top: 2.5px solid black;
-	box-shadow: 25px 25px #ccc;
-	padding: 2%;
+#media {
+	width: 20%;
+	margin-right: 2em;
+	padding-right: 2em;
+	border-right: solid 2px #ccc;
 }
 
-figure {
-	border: 5px solid white;
-	box-shadow: 25px 25px 25px rgb(87, 87, 87);
-	background-color: #ccc;
-	margin: auto;
+#stainless_seasoning {
+	padding: 1% 7.5% 1%;
+	background-color: #e2e2e2;
+	border-radius: 15px;
 }
 
-figcaption {
-	color: white;
-	box-shadow: 5px -5px 15px #818181;
-	background-color: brown;
-	text-align: center;
-	font-family: Palatino Linotype;
-	font-size: 1.5em;
-	margin-top: 6%;
-	padding: 3%;
-	width: 85%;
-}
-
-.grid {
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-gap: 100px;
-}
-
-#story, .grid {
+#options {
 	width: 40%;
+}
+
+#pan_video {
+	border-top: solid 2px #ccc;
+	padding-top: 3%;
+	width: 730px;
+}
+
+#media, #options, #ceramic_copper {
 	float: left;
 }
 
-#story {
-	padding: 1%;
-	margin: 2%;
+#ceramic_copper {
+	background-color: #ffebeb;
+	border-radius: 15px;
+	margin: 2% 2%;
+	padding: 0% 1%;
+	width: 16.5%;
+}
+
+#ceramic_copper ul {
+	list-style-type: disc;
+	font-size: 1.20em;
+}
+
+#socials {
+	clear: left;
 }
 
 #info ul {

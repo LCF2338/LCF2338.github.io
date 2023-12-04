@@ -1,7 +1,7 @@
 /* by Tyler Woolvett, student number 0750688 */
 
 /* CSS Reset */
-body, header, nav, main, footer, figcaption, section, article, aside {
+body, header, nav, main, footer {
 	font-family: Mongolian Baiti, Palatino Linotype, Georgia;
 	margin: 0;
 	padding: 0;
@@ -23,7 +23,7 @@ header {
 	text-align: center;
 }
 
-nav { 
+nav {
 	background-color: red;
 	font-weight: bold;
 	padding: 2em 2em;
@@ -89,45 +89,66 @@ main ul {
 	list-style-type: none;
 }
 
-aside {
-	border-top: 2.5px solid black;
-	box-shadow: 25px 25px #ccc;
-	padding: 2%;
+#contact_info {
+	width: 35%;
 }
 
-figure {
-	border: 5px solid white;
-	box-shadow: 25px 25px 25px rgb(87, 87, 87);
-	background-color: #ccc;
-	margin: auto;
-}
-
-figcaption {
-	color: white;
-	box-shadow: 5px -5px 15px #818181;
-	background-color: brown;
-	text-align: center;
-	font-family: Palatino Linotype;
-	font-size: 1.5em;
-	margin-top: 6%;
-	padding: 3%;
-	width: 85%;
-}
-
-.grid {
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-gap: 100px;
-}
-
-#story, .grid {
-	width: 40%;
+#contact_info, #contact_form {
 	float: left;
 }
 
-#story {
-	padding: 1%;
-	margin: 2%;
+#contact_form {
+	width: 45%;
+	padding: 0% 5% 5%;
+}
+
+.firstSection label {
+	display: block;
+}
+
+.firstSection, .secondSection {
+	float: left;
+	width: 45%;
+	padding: 2%;
+}
+
+.secondSection fieldset {
+	margin-bottom: 7.6%;
+}
+
+.contactResolver label {
+	display: block;
+}
+
+fieldset {
+	border-radius: 10px;
+	background-color: #dddddd;
+	margin: 4% 0%;
+	box-shadow: 10px 10px 10px #ccc;
+}
+
+legend {
+	background-color: brown;
+	font-size: 1.25em;
+	padding: 2%;
+	margin: 2% 0%;
+	color: white;
+	border-radius: 15px;
+	box-shadow: 3.5px 3.5px 3.5px #505050;
+}
+
+label {
+	font-weight: bold;
+}
+
+label, input {
+	margin: 1% 0%;
+}
+
+#lower_contact_info {
+	border-top: 2.5px solid #515151;
+	box-shadow: 25px 25px #ccc;
+	padding: 2%;
 }
 
 #info ul {

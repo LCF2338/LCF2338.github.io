@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- by Tyler Woolvett, student number 0750688 !-->
+<html lang="en">
+<head>
+	<title>Srebro - Home</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<img src="images/srebro_banner.png" alt="the website banner">
+		</header>
+		<nav>
+			<a href="index.html"><img src="images/srebro_logo.png" alt="the srebro logo"></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="team.html">Our Team</a></li>
+				<li><a href="specials.html">Specials</a></li>
+				<li><a href="training.html">Training</a></li>
+				<li><a href="media.html">Media</a></li>
+				<li><a href="faqs.html">FAQs</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="reports.html">Reports</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section id="contact_info">
+				<h1>Contact Us</h1>
+				<img src="images/mail.png" alt="letter">
+				<h2>Srebro has offers for new customers!</h2>
+				<div id="lower_contact_info">
+					<p>These options include special discounts. <span class="bold">If you are a new customer, or have questions or concerns related to your new Srebro product or for any other reason,</span> please do not hesitate to reach out to our <a href="mailto:sales@srebro.com">email.</a></p>
+					<p>Alternatively, we can also be reached via our contact form to the right:</p>
+				</div>
+			</section>
+			<section id="contact_form">
+				<h1>Contact Form</h1>
+				<form>
+					<div class="firstSection">
+						<fieldset>
+							<legend>Basic Information</legend>
+							<label for="fullName">Full Name:</label>
+							<input type="text" name="fullName" id="fullName" size="20" autofocus required>
+							<label for="srebroRewards">Enter your Srebro Rewards ID (if applicable)?</label>
+							<input type="number" name="srebroRewards" id="srebroRewards" placeholder="123456">
+							<label for="contactReason">What can we help you with today?</label>
+							<select id="contactReason">
+								<option>---</option>
+								<option>Order Status</option>
+								<option>Product Questions</option>
+								<option>Product Maintenance</option>
+								<option>Returns</option>
+								<option>Recipies</option>
+								<option>Other (Please specify in comments)</option>
+							</select>
+							<label for="contactOther">Comments:</label>
+							<textarea id="contactOther" name="contactOther" rows="10" cols="30"></textarea>
+							<label for="orderNumber">Order number (if applicable):</label>
+							<input type="text" name="orderNumber" id="orderNumber" size="10" placeholder="SR12345">
+							<label for="orderDate">Order date (if applicable):</label>
+							<input type="date" name="orderDate" id="orderDate">
+						</fieldset>
+					</div>
+					<div class="secondSection">
+						<div class="contactResolver">
+							<fieldset>
+								<legend>Contact Information</legend>
+								<label for="userEmail">Email:</label>
+								<input type="email" name="userEmail" id="userEmail" placeholder="email@domain.com" size=20 required>
+								<label for="phoneNumber">Phone:</label>
+								<input type="tel" name="phoneNumber" id="phoneNumber" placeholder="555-555-5555" size="15" required>
+							</fieldset>
+						</div>
+						<fieldset>
+							<legend>Your Location</legend>
+							<label for="inside">Inside Canada</label>
+							<input type="radio" name="customerLocation" id="inside" value="inside" required>
+							<label for="outside">Outside Canada</label>
+							<input type="radio" name="customerLocation" id="outside" value="outside" required>
+						</fieldset>
+						<fieldset>
+							<legend>Would you like mail from Srebro?</legend>
+							<label for="newProducts">New products</label>
+							<input type="checkbox" name="subscription" id="newProducts" value="newProducts">
+							<label for="newSales">Sales and deals</label>
+							<input type="checkbox" name="subscription" id="newSales" value="newSales">
+							<label for="orderUpdates">Order updates</label>
+							<input type="checkbox" name="subscription" id="orderUpdates" value="orderUpdates">
+						</fieldset>
+						<fieldset>
+							<legend>Final Steps</legend>
+							<input type="reset" value="Clear">
+							<input type="submit" id="send" value="Send">
+						</fieldset>
+					</div>
+				</form>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; <span class="bold">Copyright 2099. All Rights Reserved.</span> &#174;<br><a href="mailto:sales@srebro.com">Request Information</a><br>Tyler Woolvett 0750688<br>Royalty free images from Pexels</p>
+		</footer>
+	</div>
+</body>
+</html>
