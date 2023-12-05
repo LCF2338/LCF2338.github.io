@@ -89,7 +89,7 @@ main ul {
 	list-style-type: none;
 }
 
-aside {
+#story div {
 	border-top: 2.5px solid black;
 	box-shadow: 25px 25px #ccc;
 	padding: 2%;
@@ -118,6 +118,7 @@ figcaption {
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-gap: 100px;
+	padding-left: 50px;
 }
 
 #story, .grid {
@@ -127,7 +128,29 @@ figcaption {
 
 #story {
 	padding: 1%;
-	margin: 2%;
+	margin: 0% 2%;
+}
+
+aside {
+	background-color: #ffebeb;
+	border-radius: 15px;
+	margin: 7% 2%;
+	margin-right: 2%;
+	padding: 0.5% 2%;
+	width: 30%
+}
+
+aside, .aside_cont {
+	float: left;
+}
+
+h2 {
+	margin-top: 7%;	
+}
+
+.aside_cont {
+	width: 55.5%;
+	margin-left: 2.5%;
 }
 
 #info ul {

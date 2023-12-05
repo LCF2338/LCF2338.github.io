@@ -89,6 +89,14 @@ main ul {
 	list-style-type: none;
 }
 
+#info {
+	border-radius: 15px;
+	border: 2px solid #ccc;
+	padding: 2em;
+	width: 30%;
+	margin: auto;
+}
+
 #info ul {
 	list-style-type: none;
 }

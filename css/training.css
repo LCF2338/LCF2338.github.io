@@ -1,7 +1,7 @@
 /* by Tyler Woolvett, student number 0750688 */
 
 /* CSS Reset */
-body, header, nav, main, footer {
+body, header, nav, main, footer, figcaption, section, article, aside {
 	font-family: Mongolian Baiti, Palatino Linotype, Georgia;
 	margin: 0;
 	padding: 0;
@@ -90,12 +90,23 @@ main ul {
 }
 
 #training_info {
-	font-size: 1.2em;
-	padding: 0% 2%;
+	border-radius: 15px;
+	border: 2px solid #ccc;
+	font-size: 1.1em;
+	padding: 1% 2%;
 	margin-right: 2.75%;
 	width: 27.5%;
-	border-top: 2.5px solid black;
-	box-shadow: 25px 25px #ccc;
+}
+
+#training_info img {
+	width: 400px;
+}
+
+aside {
+	background-color: #ffebeb;
+	border-radius: 15px;
+	margin: 7% 2%;
+	padding: 0.5% 2%;
 }
 
 #training_info, table {
@@ -133,12 +144,13 @@ td {
 	font-weight: bold;
 }
 
-td:hover {
-	box-shadow: 4px 4px 4px #000000;
-}
-
 tr:nth-child(odd) {
 	background-color:bisque;
+}
+
+tr:hover {
+	background-color: red;
+	color: white;
 }
 
 #info ul {
