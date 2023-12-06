@@ -90,7 +90,7 @@ main ul {
 }
 
 #media {
-	width: 20%;
+	width: 25%;
 	margin-right: 2em;
 	padding-right: 2em;
 	border-right: solid 2px #ccc;
@@ -103,13 +103,13 @@ main ul {
 }
 
 #options {
-	width: 40%;
+	width: 45%;
 }
 
 #pan_video {
 	border-top: solid 2px #ccc;
 	padding-top: 3%;
-	width: 730px;
+	width: 800px;
 }
 
 #media, #options, #ceramic_copper {
@@ -171,6 +171,7 @@ main ul {
 }
 
 footer {
+	margin: 2em;
 	font-size: 0.9em;
 	text-align: center;
 }

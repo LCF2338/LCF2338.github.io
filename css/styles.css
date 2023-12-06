@@ -101,9 +101,24 @@ main ul {
 	list-style-type: none;
 }
 
+#collections {
+	width: 70%;
+}
+
+#collections, #guarantee_policy {
+	float: left;
+}
+
 #srebro_mini, #srebro_essentials, #srebro_millenia {
 	float: left;
-	width: 22.5%;
+	width: 33%;
+}
+
+#guarantee_policy {
+	padding: 1.5em;
+	border-radius: 15px;
+	background-color: #fff1f1;
+	width: 21%;
 }
 
 #about, #family {
@@ -135,6 +150,7 @@ main ul {
 }
 
 footer {
+	margin: 2em;
 	font-size: 0.9em;
 	text-align: center;
 }
